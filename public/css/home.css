@@ -1,0 +1,6 @@
+body {
+    background-image: url("../img/img/emilia-home.jpg");
+    background-repeat: no-repeat;
+    background-position: right 0;/* Primer parametro es el eje horizontal y el segundo eje vertical */
+    background-size: 70%;
+}

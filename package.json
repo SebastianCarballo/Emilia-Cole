@@ -1,0 +1,23 @@
+{
+  "name": "emilia-cole",
+  "version": "1.0.0",
+  "description": "Este es el repositorio de Emilia Cole",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebastianCarballo/Emilia-Cole.git"
+  },
+  "keywords": [],
+  "author": "Sebastian Carballo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SebastianCarballo/Emilia-Cole/issues"
+  },
+  "homepage": "https://github.com/SebastianCarballo/Emilia-Cole#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
