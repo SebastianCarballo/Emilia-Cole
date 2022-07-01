@@ -4,6 +4,7 @@ body {
     background-position: right 0;/* Primer parametro es el eje horizontal y el segundo eje vertical */
     background-size: 70%;
 }
+
 h1{
-    color: blue;
+    color: red;
 }
