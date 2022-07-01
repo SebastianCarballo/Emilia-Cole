@@ -1,0 +1,11 @@
+/* Aca vamos a importar todos los css que vamos a utilizar */
+
+@import './general.css';/* Este general se va traer justamente todo lo que tenga dentro de general */
+@import './variables.css';
+@import'./home.css';
+@import'./about.css';
+@import'./contact.css';
+@import'./music.css';
+/* Con este moetodo nos ahorramos de escribir o utilizar 40000 css para distintso casos */
+
+/* El que tine prioridad es la ultima LINEA que se escribio css */

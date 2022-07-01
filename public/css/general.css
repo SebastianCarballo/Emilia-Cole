@@ -1,0 +1,15 @@
+*{/* Selector que afecta a toda nuestra pagina web */
+    box-sizing: border-box;/* Esto hace que cualquier caja que contenga otra no se salga del limite */
+    margin: 0;
+    padding: 0; 
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.home header {
+    margin-left: 30px;
+}

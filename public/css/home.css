@@ -1,7 +1,47 @@
-body {
+.home {
     background-image: url("../img/img/emilia-home.jpg");
     background-repeat: no-repeat;
     background-position: right 0;/* Primer parametro es el eje horizontal y el segundo eje vertical */
     background-size: 70%;
+    text-transform: uppercase;
 }
 
+
+.home header{
+    margin-left: 30px;
+}
+
+.home header nav ul li {
+    margin: 10px 0;/* los dos parametros unos afecta a la cadena vertical quee s el priemro y el segundo a la cadena horizontal */
+    
+}
+
+.home header nav ul li a{
+    color: #6b6b6b;
+   
+}
+
+.home header nav ul a{
+    font-size: 30px;
+}
+
+
+.home main{
+    margin-top: 220px;
+    margin-left: 30px;
+}
+
+.home main h2{
+    margin-bottom:200px;
+    margin-left:30px;
+    font-family: var(--fuenteSubtitulos);
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: 10px;
+}
+
+.home main h1{/* el . llama a la clases  y el #  a los id*/
+    font-size: 100px;
+    background-color: #ffffff5c;
+    font-family: var(--fuenteTitulos);
+}
