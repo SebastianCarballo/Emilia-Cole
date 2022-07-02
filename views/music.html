@@ -1,1 +1,76 @@
- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <!-- Normalize -->
+    <link rel="stylesheet" href="/css/normalize.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/styles.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/20f0c7215e.js" crossorigin="anonymous"></script>
+</head>
+<body class="music">
+    <header id="header"><!-- el id no se puede repetir, el id es unico-->
+        <nav>
+            <ul class="navegacion">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/music">Music</a></li>
+                <li class="barraDerecha"><a href="/contact">Contact</a></li>
+            </ul>
+            <ul class="icons">               
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-facebook-square"></i></a>
+                <a href=""><i class="fab fa-spotify"></i></a>
+                <a href=""><i class="fab fa-apple"></i></a>
+                <a href=""><i class="fab fa-amazon"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+            </ul>  
+        </nav>
+    </header>
+    <main><!--Etiqueta contenedor paralelo al header --><!--usamos 3 contenedores header,main, footer-->
+        <h1>Music //</h1>
+        
+        <h4>Direct Links</h4>
+        <ul>
+            <li><a href="#album">Album</a></li><!-- con un (llamamos a una clase ejemplo .img / pero es un id y lo llamamos conn #) -->
+            <li><a href="#Organic">Video: Organic Love</a></li>
+            <li><a href="#Street">Video: Street Light</a></li>
+        </ul>
+        <h2 class="start">Album</h2>
+        <h2>Twist in my reality</h2>
+        <img src="/img/img/emilia-play-list.png" alt="Imagen playlist" id="album">
+
+        <ol>
+            <li><i class="fas fa-play"></i> Organic Love | 02:40</li>
+            <li><i class="fas fa-play"></i> Twisty In My Reality | 02:10</li>
+            <li><i class="fas fa-play"></i> Street Light | 03:28</li>
+            <li class="last"><i class="fas fa-play"></i> Love Don't Live Here Anymore (Cover) | 03:28</li>
+        </ol>
+        <a href="#">Go Top</a>
+
+        <h2 class="start">video</h2>
+        <h2>Organic Love</h2>
+        <iframe src="https://player.vimeo.com/video/135166028" width="640" height="360" frameborder="0"
+        allow="autoplay; fullscreen" allowfullscreen id="Organic"></iframe>
+        <p>Direct by <span>vince malc & emilia cole</span></p>
+        <p>Edit and Filmed by <span>nicolas troy</span></p>
+        <p>Produced by <span>niki heard</span></p>
+        <p class="last">Wix Films <span>ltd.</span></p>
+        <a href="#">Go Top</a>
+        <!-- span es una etiqueta en linea para usarlo dentro de css, en este caso poner en mayusculas  -->
+        <h2 class="start">video</h2>
+        <h2>Street Light</h2>
+        <iframe src="https://player.vimeo.com/video/134861419" width="640" height="360" frameborder="0"
+        allow="autoplay; fullscreen" allowfullscreen id="Street"></iframe>
+        <p>Direct by <span>vince malc & emilia cole</span></p>
+        <p>Edit and Filmed by <span>nicolas troy</span></p>
+        <p>Produced by <span>niki heard</span></p>
+        <p class="last">Wix Films <span>ltd.</span></p>
+        <a href="#">Go Top</a>
+    </main><!--main va contener todo el cuerpo de nuestro sitio-->
+</body>
+</html>

@@ -1,0 +1,76 @@
+
+.music{
+    font-family: var(--fuenteSubtitulos);
+
+}
+/* header */
+.music header{
+    background-image: url(../img/img/emilia-music-top.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 160px;
+    height: 160px;
+
+}
+
+.music header nav{
+    text-align: right;
+    padding-top: 60px;
+    width: 98%;
+} 
+
+
+
+.music header nav .navegacion{
+    background-color: #ffffff7e;
+    
+
+}
+
+.music header nav .navegacion li a{
+    font-size: 24px;
+}
+.music header nav .navegacion li{
+    display: inline;
+    padding:0px 20px ;
+    border-left: 1px solid #000000;
+}
+
+.music header li.barraDerecha{
+    border-right: 1px solid #000000;
+}
+
+/* main */
+.music h1,h2{/* aca podemos hacer alucion a dos equitetas al mismo tiempo separadas por una coma  */
+    font-family: var(--fuenteTitulos);
+    text-transform: uppercase;
+}
+.music main ul{
+    margin-left:  15px; ;
+}
+
+.music main a{/* Acordate del apraguas primero va . music, main y despues la a */
+color:#7a7a7a;
+}
+
+.music main .start{/* h2 de  los titulos album,video y video*/
+    margin-top: 90px;
+}/* Esto se llama especificidad */
+/* mientras mas especifico sea el elemento que yo quiero aplicar mas esfecifico va ser todo lo que estamos utilizando   */
+/* aquellos elemntos que seas mas especificos van a tener mas prioridad que aquellos que no lo sean */
+
+.music main .last{
+    margin-bottom: 10px;
+}
+
+.music main span{
+    text-transform: uppercase;
+}
+
+.music main ol li{
+    margin-left: 35px;
+}
+
+.music main ol li{
+    margin-bottom: 10px;
+    list-style:decimal-leading-zero ;
+}
