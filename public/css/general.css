@@ -13,3 +13,7 @@ li{
 .home header {
     margin-left: 30px;
 }
+
+.contact main h1{
+    font-size: 4rem;
+}

@@ -14,20 +14,27 @@
 
 .music header nav{
     text-align: right;
-    padding-top: 60px;
-    width: 98%;
+    padding-top: 45px;
+    width: 99%;
+    margin: 0 auto;
+
+
 } 
 
 
 
 .music header nav .navegacion{
     background-color: #ffffff7e;
-    
-
+    padding: 15px 1px;
 }
+
 
 .music header nav .navegacion li a{
     font-size: 24px;
+    text-transform:uppercase;
+}
+.music header nav .icons{
+    margin-top: 10px;
 }
 .music header nav .navegacion li{
     display: inline;

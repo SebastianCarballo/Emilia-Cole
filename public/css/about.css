@@ -1,3 +1,86 @@
-h1{
-    font-size: 8rem;
+.about{
+    background-image: url('../img/img/emilia-about.jpg');
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: right 0;
+    text-transform: uppercase;
+}
+
+.about header{
+    background-repeat: no-repeat;
+    background-size: 100% 160px;
+    height: 160px;
+
+}
+
+.about header nav{
+    text-align: right;
+    padding-top: 45px;
+    width: 99%;
+    margin: 0 auto;
+
+
+} 
+
+
+
+.about header nav .navegacion{
+    background-color: #ffffff7e;
+    padding: 15px 1px;
+}
+
+
+.about header nav .navegacion li a{
+    font-family: var(--fuenteSubtitulos);
+    font-size: 24px;
+    text-transform:uppercase;
+}
+.about header nav .icons{
+    margin-top: 10px;
+}
+.about header nav .navegacion li{
+    display: inline;
+    padding:0px 20px ;
+    border-left: 1px solid #000000;
+}
+
+.about header li.barraDerecha{
+    border-right: 1px solid #000000;
+}
+
+/* elemento padre */
+/* .about main{
+    font size: 20px */
+/* una medida rem va contener 1 medida igual a la que tiene el elemento padre la contiene */
+/* es uan herencia que le da el elemento main a los hijos  */
+
+
+/* main */
+
+.about main{
+    font-size: 20px;
+}
+
+.about main h1{
+    font-size: 4rem;
+    font-family: var(--fuenteSubtitulos);
+}
+
+.about main h3{
+    margin: 80px 0 30px 40px;
+    color:var(--colorSecundarioFuentes);
+    text-transform: none;
+    font-family: var(--fuenteSubtitulos);
+    font-weight: 400;
+    font-size: 1.7rem;
+    
+}
+
+.about main p{
+    margin: 0 40px;
+    color:var(--colorSecundarioFuentes);
+    text-transform: capitalize;
+    font-weight: 400;
+    font-family: var(--fuenteSubtitulos);
+    
 }
